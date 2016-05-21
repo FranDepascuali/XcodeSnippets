@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>_Test</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>TopLevel</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>import Quick
+import Nimble
+import &lt;#Project#&gt;
+
+public class &lt;#Custom#&gt;ViewModelSpec: QuickSpec {
+    
+    override public func spec() {
+        
+        var viewModel: &lt;#Custom#&gt;ViewModel!
+        
+        beforeEach {
+            viewModel =
+        }
+    }
+}</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>0A2C7E97-C529-4D7D-9CBF-30BC4C68DD4E</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>ViewModel test structure</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>_ViewModelSpec</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>0</integer>
+</dict>
+</plist>
